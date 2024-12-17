@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 加载数据
-data1 = pd.read_csv('updated_gas_oil_tasks (2).csv')  # 替换为你的CSV文件路径
+data1 = pd.read_csv('https://raw.githubusercontent.com/zh19980811/ML_ITMO_TASK2/refs/heads/main/vercel/updated_gas_oil_tasks%20(2).csv')  # 替换为你的CSV文件路径
 data2 = pd.read_csv('val_rus.csv')  # 如果需要，也可以加载第二个数据集
 
 # 创建 Flask 应用
